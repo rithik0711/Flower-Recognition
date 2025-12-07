@@ -1,34 +1,39 @@
-🌸 Flower Recognition App
-Identify flower species using AI (React.js + Teachable Machine)
+<h1>🌸 Flower Recognition App</h1>
+<h3>Identify flower species using AI (React.js + Teachable Machine)</h3>
 
-This project is a Flower Image Classification Web App built using React.js and Google Teachable Machine.
-Users can upload a flower image, and the model predicts the flower type along with the confidence percentage.
+<p>
+  This project is a <strong>Flower Image Classification Web App</strong> built using 
+  <strong>React.js</strong> and <strong>Google Teachable Machine</strong>.<br>
+  Users can upload a flower image, and the model predicts the flower type along with the confidence percentage.
+</p>
 
-🚀 Features
+<hr>
 
-📸 Upload any flower image
+<h2>🚀 Features</h2>
+<ul>
+  <li>📸 Upload any flower image</li>
+  <li>🤖 AI model trained using Google Teachable Machine</li>
+  <li>🌼 Predicts flower species such as <strong>Rose, Lotus, Sunflower, Hibiscus, Jasmine</strong></li>
+  <li>🔍 Displays confidence percentage</li>
+  <li>⚡ Fast and works entirely in the browser</li>
+  <li>🎨 Clean and responsive UI</li>
+</ul>
 
-🤖 AI model trained using Google Teachable Machine
+<hr>
 
-🌼 Predicts flower species such as Rose, Lotus, Sunflower, etc.
+<h2>🧠 Technologies Used</h2>
+<ul>
+  <li><strong>React.js (Vite)</strong> – Frontend</li>
+  <li><strong>Tf.js (TensorFlow.js)</strong> – ML model execution</li>
+  <li><strong>Teachable Machine Image Model</strong> – Model training</li>
+  <li><strong>CSS</strong> – Styling</li>
+</ul>
 
-🔍 Displays confidence percentage
+<hr>
 
-⚡ Fast and works entirely in the browser
+<h2>📁 Project Structure</h2>
 
-🎨 Clean and responsive UI
-
-🧠 Technologies Used
-
-React.js (Vite) – Frontend
-
-TensorFlow.js – ML model execution
-
-Teachable Machine Image Model – Model training
-
-CSS – Styling
-
-📁 Project Structure
+<pre>
 frontend/
  ├── public/
  │    └── model/
@@ -41,17 +46,20 @@ frontend/
  │    └── main.jsx
  ├── package.json
  └── README.md
+</pre>
 
-🧩 How It Works
+<hr>
 
-User selects an image
+<h2>🧩 How It Works</h2>
+<ol>
+  <li>User selects an image</li>
+  <li>The app loads the Teachable Machine model</li>
+  <li>TensorFlow.js analyzes the image</li>
+  <li>The model returns:<br>
+      🌼 <strong>Predicted Flower Name</strong><br>
+      📊 <strong>Confidence Percentage</strong>
+  </li>
+</ol>
 
-The app loads the Teachable Machine model
+<hr>
 
-The image is analyzed in the browser
-
-The model returns:
-
-Flower Name
-
-Confidence Percentage
